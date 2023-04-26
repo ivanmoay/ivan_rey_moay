@@ -35,7 +35,7 @@
             <a class="text-teal-700 hover:underline" href="exercises/part2_5.php">Exercise 5</a>
         </div>
         <div class="my-2">
-            <a class="text-teal-700 hover:underline" href="part2_1.php">Exercise 6</a>
+            <a class="text-teal-700 hover:underline" href="exercises/part2_6.php">Exercise 6</a>
         </div>
     </div> 
 

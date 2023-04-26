@@ -48,14 +48,14 @@
         <form action="part2_3.php" method="POST" class="space-y-4">
             <div>
                 <label for="input" class="block text-gray-800 font-semibold mb-1">Value</label>
-                <input type="number" id="input" name="val" class="w-full border-gray-400 border-solid border-2 p-3 rounded-lg focus:outline-none focus:border-blue-500" required>
+                <input type="number" id="input" name="val" class="w-full border-gray-400 border-solid border-2 p-3 rounded-lg focus:outline-none focus:border-teal-500" required>
             </div>
-            <button type="submit" class="w-full bg-teal-700 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition duration-300">Push</button>
+            <button type="submit" class="w-full bg-teal-700 text-white font-semibold py-3 rounded-lg hover:bg-teal-600 transition duration-300">Push</button>
         </form>
     </div>
     <div class="bg-white p-6 rounded-lg shadow-md">
         <form action="part2_3.php" method="POST" class="space-y-4">
-            <button type="submit" name="pop" class="w-32 bg-teal-700 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition duration-300">Pop</button>
+            <button type="submit" name="pop" class="w-32 bg-teal-700 text-white font-semibold py-3 rounded-lg hover:bg-teal-600 transition duration-300">Pop</button>
         </form>
     </div>
 </div>

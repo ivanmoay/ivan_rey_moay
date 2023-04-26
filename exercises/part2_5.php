@@ -17,13 +17,13 @@
         <form action="part2_5.php" method="POST" class="space-y-4">
             <div>
                 <label for="input" class="block text-gray-800 font-semibold mb-1">Length</label>
-                <input type="number" id="input" name="length" value="<?php echo isset($_POST['length']) ? $_POST['length'] : '' ?>" class="w-full border-gray-400 border-solid border-2 p-3 rounded-lg focus:outline-none focus:border-blue-500" required>
+                <input type="number" id="input" name="length" value="<?php echo isset($_POST['length']) ? $_POST['length'] : '' ?>" class="w-full border-gray-400 border-solid border-2 p-3 rounded-lg focus:outline-none focus:border-teal-500" required>
             </div>
             <div>
                 <label for="input" class="block text-gray-800 font-semibold mb-1">Width</label>
-                <input type="number" id="input" name="width" value="<?php echo isset($_POST['width']) ? $_POST['width'] : '' ?>" class="w-full border-gray-400 border-solid border-2 p-3 rounded-lg focus:outline-none focus:border-blue-500" required>
+                <input type="number" id="input" name="width" value="<?php echo isset($_POST['width']) ? $_POST['width'] : '' ?>" class="w-full border-gray-400 border-solid border-2 p-3 rounded-lg focus:outline-none focus:border-teal-500" required>
             </div>
-            <button type="submit" class="w-full bg-blue-500 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition duration-300">Generate</button>
+            <button type="submit" class="w-full bg-teal-500 text-white font-semibold py-3 rounded-lg hover:bg-teal-600 transition duration-300">Generate</button>
         </form>
     </div>
 </div>
